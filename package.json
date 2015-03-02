@@ -156,8 +156,8 @@
 		{
 			"name" 			: "ServiceClass",
 			"file_name"		: "ServiceClass.cls",
-			"description" 	: "Apex Enterprise Patterns Selector Class",
-			"author" 		: "Andy Fawcett @andyinthecloud",
+			"description" 	: "Pine Coves Apex Enterprise Patterns Selector Class",
+			"author" 		: "Mike Camp @pinecove.com",
 			"params"		: [
 				{
 					"name"			: "object_name",
