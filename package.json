@@ -160,9 +160,19 @@
 			"author" 		: "Andy Fawcett @andyinthecloud",
 			"params"		: [
 				{
-					"name"			: "api_name",
-					"description"	: "Service class name (e.g. InvoiceService)",
-					"default"		: "InvoiceService"
+					"name"			: "object_name",
+					"description"	: "Object API Nameclass name (e.g. Accounts)",
+					"default"		: "Accounts"
+				},
+				{
+					"name"			: "dev_name",
+					"description"	: "Developer name",
+					"default"		: "ADEVELOPER"
+				},
+				{
+					"name"			: "date_created",
+					"description"	: "date this class is created",
+					"default"		: "01/01/2015"
 				}
 			]
 		},		
