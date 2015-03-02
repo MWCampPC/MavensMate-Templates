@@ -156,9 +156,14 @@
 		{
 			"name" 			: "ServiceClass",
 			"file_name"		: "ServiceClass.cls",
-			"description" 	: "Pine Coves Apex Enterprise Patterns Selector Class",
+			"description" 	: "Pine Coves Apex Enterprise Patterns Service Class",
 			"author" 		: "Mike Camp @pinecove.com",
 			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Service class name (typically plural e.g. SVC_ObjectService)",
+					"default"		: "SVC_ObjectService"
+				},
 				{
 					"name"			: "object_name",
 					"description"	: "Object API Nameclass name (e.g. Accounts)",

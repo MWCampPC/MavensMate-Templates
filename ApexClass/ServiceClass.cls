@@ -8,7 +8,7 @@
 CHANGE LOG
   {{ date_created }} {{ dev_name }} - initial version
 */
-global class SVC_{{ object_name }}Service  extends SVC_SObjectServiceBase {
+global class {{ api_name }}Service  extends SVC_SObjectServiceBase {
 
 //	private static DM_{{ object_name }}Selector dm = new DM_{{ object_name }}Selector();
 
@@ -58,7 +58,7 @@ global class SVC_{{ object_name }}Service  extends SVC_SObjectServiceBase {
 	*/
 /*	@future 
 	public static void doSomethingFuture(set<ID> objectIDs) {
-		new SVC_{{ object_name }}Service().doSomething(objectIDs);
+		new {{ api_name }}().doSomething(objectIDs);
 	}
 
 */
