@@ -43,7 +43,7 @@ global class SVC_{{ object_name }}Service  extends SVC_SObjectServiceBase {
 	 * @date {{ date_created }}
 	 * @description Used to throw a custom exception 
 	*/
-	public class {{ object_name }}ServiceException extends Exception {}
+//	public class {{ object_name }}ServiceException extends Exception {}
 
 	/******************************************************************************************************************/
 	/* @FUTURE METHODS */
@@ -56,12 +56,12 @@ global class SVC_{{ object_name }}Service  extends SVC_SObjectServiceBase {
 	 * @param	set of IDs to check
 	 * @return	Void
 	*/
-	@future 
+/*	@future 
 	public static void doSomethingFuture(set<ID> objectIDs) {
 		new SVC_{{ object_name }}Service().doSomething(objectIDs);
 	}
 
-
+*/
 	/******************************************************************************************************************/
 	/* PRIVATE METHODS */
 	/******************************************************************************************************************/
